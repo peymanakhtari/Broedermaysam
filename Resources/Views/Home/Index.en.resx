@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about me" xml:space="preserve">
+    <value>My name is Maysam Zahiri and I am a friendly spontaneous man who can work both independently and in a team. I am able to pick up on new changes quickly. I would like to continue to develop and grow in my work. I am stress resistant and able to prioritize and function under pressure.</value>
+  </data>
+  <data name="about me title" xml:space="preserve">
+    <value>About me</value>
+  </data>
+  <data name="barber shop description" xml:space="preserve">
+    <value>I'm a &lt;b&gt; barber &lt;/b&gt;  and I have my own barber shop</value>
+  </data>
+  <data name="barber shop link" xml:space="preserve">
+    <value>see my barber shop here</value>
+  </data>
+  <data name="Broeder Maysam Company" xml:space="preserve">
+    <value>Broeder Maysam </value>
+  </data>
+  <data name="Certifications &amp; Standards" xml:space="preserve">
+    <value>Certifications &amp; Standards</value>
+  </data>
+  <data name="company description" xml:space="preserve">
+    <value>company is established by me and I provide variant of professional nursing services in my company !</value>
+  </data>
+  <data name="Disabled Care" xml:space="preserve">
+    <value>Disabled Care</value>
+  </data>
+  <data name="edication" xml:space="preserve">
+    <value>Edication</value>
+  </data>
+  <data name="Elderly care" xml:space="preserve">
+    <value>Elderly care</value>
+  </data>
+  <data name="fire fighting" xml:space="preserve">
+    <value>fire fighting</value>
+  </data>
+  <data name="fire fighting description" xml:space="preserve">
+    <value>I'm also a part time &lt;b&gt; fire fighter &lt;/b&gt;  and I'm familier all fire fighting skills</value>
+  </data>
+  <data name="fire fighting link" xml:space="preserve">
+    <value>more about my fire fighter career</value>
+  </data>
+  <data name="here" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="home care" xml:space="preserve">
+    <value>Home care</value>
+  </data>
+  <data name="Hospital" xml:space="preserve">
+    <value>Hospital</value>
+  </data>
+  <data name="hospital working experince" xml:space="preserve">
+    <value>Here are some of hospitals that I've had working experience at there</value>
+  </data>
+  <data name="message is sent" xml:space="preserve">
+    <value>Your message is sent</value>
+  </data>
+  <data name="my barber shop" xml:space="preserve">
+    <value>My barber shop</value>
+  </data>
+  <data name="My Resume" xml:space="preserve">
+    <value>My Resume</value>
+  </data>
+  <data name="my services" xml:space="preserve">
+    <value>My Services</value>
+  </data>
+  <data name="Other activities" xml:space="preserve">
+    <value>Other activities</value>
+  </data>
+  <data name="Palliative care" xml:space="preserve">
+    <value>Palliative care</value>
+  </data>
+  <data name="reply soon" xml:space="preserve">
+    <value>I'll reply you as soon as possible!</value>
+  </data>
+  <data name="reviews link" xml:space="preserve">
+    <value>See my reviews</value>
+  </data>
+  <data name="send message" xml:space="preserve">
+    <value>Send message</value>
+  </data>
+  <data name="send message text" xml:space="preserve">
+    <value>You can send message to me here and I'll reply you as soon as possible</value>
+  </data>
+  <data name="subimt review" xml:space="preserve">
+    <value>and you can submit a review</value>
+  </data>
+  <data name="Terminal / 24 hour care" xml:space="preserve">
+    <value>Terminal / 24 hour </value>
+  </data>
+  <data name="work out description" xml:space="preserve">
+    <value>for many years I work out and I'm very into exercise</value>
+  </data>
+  <data name="working experience" xml:space="preserve">
+    <value>Working experience</value>
+  </data>
+  <data name="working out" xml:space="preserve">
+    <value>Working out</value>
+  </data>
+  <data name="write your message" xml:space="preserve">
+    <value>write your message</value>
+  </data>
+</root>

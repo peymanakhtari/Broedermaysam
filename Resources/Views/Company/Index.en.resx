@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Broeder Maysam Company" xml:space="preserve">
+    <value>Broeder Maysam </value>
+  </data>
+  <data name="company description" xml:space="preserve">
+    <value>Since February 25, 2019 I started my own company called:&lt;b&gt; “Brother Maysam” &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;In my work as a nurse, the care and well-being of patients comes first.&lt;br&gt;&lt;br&gt;
+After years of enjoyable and successful work in the payroll and temporary employment world, I am ready for a new challenge. I am not afraid of hard work and like to take on new challenges.
+Furthermore, I have a strong empathic capacity and I am continuously working on developing myself and thereby also improving care.
+I am flexible and patient and I like to offer a listening ear.
+Thanks to previous experiences I am broadly developed and because of that I can work within many different target groups and departments.</value>
+  </data>
+  <data name="Disabled Care" xml:space="preserve">
+    <value>Disabled Care</value>
+  </data>
+  <data name="Disabled Care text" xml:space="preserve">
+    <value>The aim of care for the disabled is to support clients with disabilities as best as possible, so that they can lead their lives as well and independently as possible. A life that suits their wishes and possibilities.&lt;br&gt;
+• Physical limitations.&lt;br&gt;
+• Sensory impairments (limitations in sight, hearing or communication).&lt;br&gt;
+• Mental disabilities.&lt;br&gt;
+• Mild intellectual disabilities in combination with (serious) behavioral problems.&lt;br&gt;
+• Multiple disabilities (a combination of physical, sensory and/or intellectual disabilities.</value>
+  </data>
+  <data name="Elderly care" xml:space="preserve">
+    <value>Elderly care</value>
+  </data>
+  <data name="Elderly care text" xml:space="preserve">
+    <value>Older people who are less active or have health problems, so that they need extra support.
+Elderly care is very important and also deserves specific attention.
+ In aged care, the elderleis are not only cared for and they are nursed as well as possible,
+ they are also encouraged to take activities and to keep in touch with other people.
+ Especially if the old-age pensioner have little family around him or is in isolation</value>
+  </data>
+  <data name="home care" xml:space="preserve">
+    <value>Home care/Specialized home care</value>
+  </data>
+  <data name="home care text" xml:space="preserve">
+    <value>In home care, clients offer optimal care in their own environment. to coach and advise colleagues and knows what the client needs in terms of care.
+I go the extra mile to guarantee the quality of life for clients as best as possible.
+Also responsible for the coordination, operation and planning of care.</value>
+  </data>
+  <data name="Hospital" xml:space="preserve">
+    <value>Hospital</value>
+  </data>
+  <data name="Hospital text" xml:space="preserve">
+    <value>With extensive experience in different hospitals in most departments.
+I offer here a
+Specialist medical assistance and related nursing and care for patients.
+ The care consists of professional and technical facilities for the diagnosis,
+ treatment and nursing of the patient.</value>
+  </data>
+  <data name="main page" xml:space="preserve">
+    <value>main page</value>
+  </data>
+  <data name="my services" xml:space="preserve">
+    <value>My Services</value>
+  </data>
+  <data name="Palliative care" xml:space="preserve">
+    <value>Palliative care</value>
+  </data>
+  <data name="Palliative care text" xml:space="preserve">
+    <value>End-of-life care. Focused on the treatment of symptoms such as pain, 
+shortness of breath and anxiety with the aim of me to keep the quality of life as good as possible.</value>
+  </data>
+  <data name="Terminal / 24 hour care" xml:space="preserve">
+    <value>Terminal / 24 hour care</value>
+  </data>
+  <data name="Terminal / 24 hour care text" xml:space="preserve">
+    <value>Start when life expectancy is less than 3 months.
+Care is aimed at the best possible quality of life and proper care for the end of the life.&lt;br&gt;
+• Care and Nursing&lt;br&gt;
+• Treatment of pain, itching, tightness&lt;br&gt;
+• Help in solving psychological and social problems&lt;br&gt;
+• Attention to meaning and spirituality&lt;br&gt;
+• Support with ending life and saying goodbye</value>
+  </data>
+</root>

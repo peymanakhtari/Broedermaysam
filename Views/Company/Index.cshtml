@@ -1,0 +1,79 @@
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Company";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/StyleSheet.css" rel="stylesheet" />
+    <link href="/css/Responsive.css" rel="stylesheet" />
+</head>
+<div class="card">
+    <div class="card-block company">
+        <a href="/Home/Index" class="btn-back">
+            <span>@Localizer["main page"]</span>
+        </a>
+        <h2 style="font-size: 3.4rem;" class="mb-4">@Localizer["Broeder Maysam Company"]</h2>
+        <p class="mb-5">
+            @Localizer["company description"]
+        </p>
+
+        <div class="row mx-0" style="width: 100%;">
+            <img class=" col-12  col-lg-10 old-img mx-auto p-0" src="/img/old.jpg" alt="Maysam Zahiri">
+        </div>
+
+    </div>
+
+
+</div>
+<div class="card">
+    <div class="card-block company">
+
+        <h2 class="myServicesTitle">@Localizer["my services"]</h2>
+        <h3 id="Terminaal">@Localizer["Terminal / 24 hour care"]</h3>
+        <p>@Localizer["Terminal / 24 hour care text"]</p>
+
+        <h3 id="Thuiszorg">@Localizer["home care"] </h3>
+        <p>@Localizer["home care text"]</p>
+        <br>
+        <h3 id="Gehandicapte">@Localizer["Disabled Care"]</h3>
+        <p>@Localizer["Disabled Care text"]</p>
+        <div class="row mx-0" style="width: 100%;">
+            <img class=" col-12  col-lg-10 old-img mx-auto p-0" src="/img/wheelChair.jpg" alt="Gehandicapte zorg">
+        </div>
+
+        <h3 id="Ziekenhuis">@Localizer["Hospital"] </h3>
+        <p>@Localizer["Hospital text"]</p>
+        <div class="row mx-0" style="width: 100%;">
+            <img class=" col-12  col-lg-10 old-img mx-auto p-0" src="/img/hospital corridor.jpg" alt="Ziekenhuis">
+        </div>
+        <h3 id="Ouderen">@Localizer["Elderly care"]</h3>
+        <p>@Localizer["Elderly care text"]</p>
+        <h3 id="Palliatieve">@Localizer["Palliative care"] </h3>
+        <p>@Localizer["Palliative care text"]</p>
+        <div class="row mx-0" style="width: 100%;">
+            <img class=" col-12  col-lg-10 old-img mx-auto p-0" src="/img/palliviage.jpg" alt="Palliatieve zorg">
+        </div>
+
+    </div>
+</div>
+
+<style>
+    @@media only screen and (max-width: 767px) {
+        .card-block {
+            padding: 2rem !important;
+        }
+    }
+</style>
+<script>
+   
+</script>
+
+<style>
+    #social_links {
+        display: block !important;
+    }
+</style>

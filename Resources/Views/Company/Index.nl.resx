@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Broeder Maysam Company" xml:space="preserve">
+    <value>Broeder Maysam </value>
+  </data>
+  <data name="company description" xml:space="preserve">
+    <value>Sinds 25 februari 2019 ben ik gestart met mijn eigen bedrijf genaamd:&lt;b&gt; “Broeder Maysam” &lt;/b&gt;
+&lt;br&gt;&lt;br&gt;In mijn werk als verpleegkundige staat de zorg en het welzijn van patiënten voorop.&lt;br&gt;&lt;br&gt;
+Na jarenlang plezierig en succesvol gewerkt te hebben in de loon- en uitzendwereld ben ik toe aan een nieuwe uitdaging. Ik ben niet bang voor hard werken en ga graag nieuwe uitdagingen aan.
+Verder heb ik een sterk empathisch vermogen en ben continu bezig om mezelf te ontwikkelen en daardoor ook te zorg te verbeteren. 
+Ik ben flexibel en geduldig en bied graag een luisterend oor.
+Dankzij eerdere ervaringen ben ik breed ontwikkeld en kan ik daardoor binnen vele verschillende doelgroepen en afdelingen werken.</value>
+  </data>
+  <data name="Disabled Care" xml:space="preserve">
+    <value>Gehandicapte zorg</value>
+  </data>
+  <data name="Disabled Care text" xml:space="preserve">
+    <value>Het doel van de gehandicaptenzorg is dat cliënten met beperkingen zo goed mogelijk te ondersteunen, zodat ze hun leven zo goed en zelfstandig mogelijk kunnen leiden. Een leven dat past bij hun wensen en mogelijkheden.&lt;br&gt;
+• Lichamelijke beperkingen&lt;br&gt;
+• Zintuiglijke beperkingen (beperkingen in het zien, horen of in de communicatie)&lt;br&gt;
+• Verstandelijke beperkingen&lt;br&gt;
+• Licht verstandelijke beperkingen in combinatie met (ernstige) gedragsproblemen&lt;br&gt;
+• Meervoudige beperkingen (een combinatie van lichamelijke, zintuiglijk en/of verstandelijke beperkingen</value>
+  </data>
+  <data name="Elderly care" xml:space="preserve">
+    <value>Ouderen zorg</value>
+  </data>
+  <data name="Elderly care text" xml:space="preserve">
+    <value>Ouderen die wat minder mobiel zijn of gezondheidsproblemen hebben, waardoor ze extra ondersteuning nodig hebben.
+Ouderenzorg is erg belangrijk en verdient ook specifieke aandacht.
+ Bij ouderenzorg worden ouderen niet alleen zo goed mogelijk verzorgd en verpleegd,
+ ook worden ze gestimuleerd om activiteiten te ondernemen en contact te houden met andere mensen.
+ Vooral als ouderen weinig familie om zich heen of in de isolement</value>
+  </data>
+  <data name="home care" xml:space="preserve">
+    <value>Thuiszorg/Gespecialiseerde thuiszorg</value>
+  </data>
+  <data name="home care text" xml:space="preserve">
+    <value>In de thuiszorg bieden cliënten optimale zorg  in hun eigen omgeving. collega’s te coachen en adviseren en weet wat de cliënt aan zorg nodig heeft. 
+Ik zet net dat stapje extra om de kwaliteit van leven voor cliënten zo goed mogelijk waarborgen.
+Ook verantwoordelijk voor de coördinatie, bedrijfsvoering en planning van zorg.</value>
+  </data>
+  <data name="Hospital" xml:space="preserve">
+    <value>Ziekenhuis</value>
+  </data>
+  <data name="Hospital text" xml:space="preserve">
+    <value>Met een geruim ervaring in het verschillende ziekenhuizen op het meeste afdelingen. 
+Hierbij bied ik een
+Medisch-specialistische hulp en daarmee samenhangende verpleging en verzorging aan patiënten.
+ De zorg bestaat uit professionele en technische voorzieningen voor de diagnose, behandeling, verpleging van de patiënt.</value>
+  </data>
+  <data name="main page" xml:space="preserve">
+    <value>hoofdpagina</value>
+  </data>
+  <data name="my services" xml:space="preserve">
+    <value>Mijn diensten</value>
+  </data>
+  <data name="Palliative care" xml:space="preserve">
+    <value>Palliatieve zorg</value>
+  </data>
+  <data name="Palliative care text" xml:space="preserve">
+    <value>Zorg in de laatste levensfase. Gericht op de behandeling van ziekteverschijnselen zoals pijn, 
+benauwdheid en angst met als doel van mij is de kwaliteit van leven zo goed mogelijk te houden.</value>
+  </data>
+  <data name="Terminal / 24 hour care" xml:space="preserve">
+    <value>Terminaal /24 uurszorg</value>
+  </data>
+  <data name="Terminal / 24 hour care text" xml:space="preserve">
+    <value>Start als de levensverwachting minder dan 3 maanden is. 
+Zorg is gericht op een zo goed mogelijk kwaliteit van leven en goede stervensbegeleiding. &lt;br&gt;
+•	Verzorging en verpleging&lt;br&gt;
+•	Behandeling van pijn, jeuk, benauwdheid &lt;br&gt;
+•	Hulp bij het oplossen van psychische en sociale problemen&lt;br&gt;
+•	Aandacht voor zingeving en spiritualiteit&lt;br&gt;
+•	Ondersteuning bij het afronden van het leven en het afscheid nemen</value>
+  </data>
+</root>

@@ -1,0 +1,118 @@
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@model IEnumerable<Maysam.Models.Review>
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Reviews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/StyleSheet.css" rel="stylesheet" />
+    <link href="/css/Responsive.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+</head>
+<div class="card">
+    <div class="card-block ">
+        <div onclick="Previous()" class="btn-back">
+            <span style="font-size: 16px; ">@Localizer["main page"]</span>
+        </div>
+        <h2 class="mb-5 ">Reviews </h2>
+        <button onclick="scrollToSubmit()" class="btn btn-primary mb-5">
+            @Localizer["submit Review"]
+        </button>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="card col-12 col-md-9 col-lg-7  mx-auto" style="padding: 0; ">
+
+                    <div class="card-body rounded shadow ">
+                        <p>
+                        @Html.Raw(item.Text)  
+                        </p>
+                        <a class="text-primary" href="mailto:@item.Email">@item.Email</a>
+                    </div>
+                </div>
+            }
+
+            
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<div class="card">
+    <div class="card-block">
+        <h2 id="sendReview"> @Localizer["submit Review"] !</h2>
+        <form id="form" action="/Home/SendMassage" method="post" class="reveal-content">
+            <div class="form-group">
+                <input type="email" name="Email" class="form-control" id="Email" placeholder="Email" required />
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" name="Text" rows="5" id="Text" placeholder="@Localizer["submit place holder"]"
+                          required></textarea>
+            </div>
+            <div class="form-group">
+                <input id="btnSend" type="button" onclick="sendReview()" class=" btn btn-primary"
+                       value="@Localizer["submit button"]">
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+      window.onload = function () {
+          var service = getParameterByName('elem');
+          $('#' + service).css('opacity', '.2');
+          $('#' + service).css('font-size', '13px');
+          document.getElementById(service).scrollIntoView({ behavior: "smooth", block: "center" });
+          $('#' + service).animate({ opacity: "1", fontSize: "25px" }, 2000);
+      }
+      function scrollToSubmit() {
+
+          document.getElementById('sendReview').scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+
+      function sendReview() {
+          if ($('#form').valid()) {
+              $('#btnSend').prop('disabled', true)
+              $.ajax({
+                  type: 'post',
+                  url: '/Home/SubmitReview',
+                  data: { Text: $("#Text").val().replace(/\n/g, "<br>"), Email: $('#Email').val() },
+                  success: function () {
+                      $('#btnSend').prop('disabled', false);
+                       $('#form').trigger("reset");
+                      $('#form').append(` <div class="alert alert-success alert-dismissible fade in">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>@Localizer["review is submited"]</strong> <br> @Localizer["publsish soon"]
+    </div>
+                  `)
+
+                  },
+                  error: function () {
+                      alert('oops!!! server error')
+                  }
+              })
+          }
+      }
+
+      $('#form').validate({
+          errorPlacement: function (label, element) {
+              label.css('color', 'red');
+              label.insertAfter(element);
+          },
+          wrapper: 'span'
+      });
+      jQuery.extend(jQuery.validator.messages, {
+          required: "Dit veld is verplicht.",
+          email: "Gelieve een geldig e-mailadres in te geven."
+      });
+</script>

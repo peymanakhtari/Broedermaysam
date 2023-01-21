@@ -1,0 +1,218 @@
+﻿@using System.Globalization
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "broader maysam";
+    ViewData["metadescription"] = "broader maysam";
+}
+<head>
+    <link href="/css/main-index.css" rel="stylesheet">
+    <link href="/css/StyleSheet.css" rel="stylesheet" />
+    <link href="/css/Responsive.css" rel="stylesheet" />
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>ّ
+</head>
+
+<div class="card">
+    <div style="padding-bottom:20px" class="card-block">
+        <h2>@Localizer["about me title"]</h2>
+        <div class="row about-me">
+            <div class="col-md-5">
+                <p class="aboutme-img"><img style="width: 90%;" src="/assets/images/broedermaysam.jpg" class="img-responsive d-inline-block" alt=""></p>
+            </div>
+            <div class="col-md-7">
+                <p>
+                    @Localizer["about me"]
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-block ">
+        <div class="w-100 text-center">
+            <a href="/Company/Index" class="text-center broadermaysam">@Localizer["Broeder Maysam Company"]</a>
+        </div>
+        <br>
+        <b class="bold_word">Broeder Maysam</b> @Localizer["company description"]
+        <br> <br>
+        <p>
+            <a href="/Home/certificatesAndstandards" class="certificate">@Localizer["Certifications & Standards"]</a>
+        </p>
+        <h3>@Localizer["my services"]:</h3>
+        <div class="row ">
+            <a href="/Company/Index?service=Terminaal" class="h5 col-5 d-block mx-auto services-title"> @Localizer["Terminal / 24 hour care"]</a>
+            <a href="/Company/Index?service=Thuiszorg" class="h5 col-5 d-block mx-auto services-title "> @Localizer["home care"]</a>
+            <a href="/Company/Index?service=Ziekenhuis" class="h5 col-5 d-block mx-auto services-title "> @Localizer["Hospital"] </a>
+            <a href="/Company/Index?service=Palliatieve" class="h5 col-5 d-block mx-auto services-title">@Localizer["Palliative care"] </a>
+            <a href="/Company/Index?service=Ouderen" class="h5 col-5 d-block mx-auto services-title">@Localizer["Elderly care"]</a>
+            <a href="/Company/Index?service=Gehandicapte" class="h5 col-5 d-block mx-auto services-title">@Localizer["Disabled Care"] </a>
+
+        </div>
+        <h3>@Localizer["hospital working experince"]</h3>
+        <p> <b class="bold_word">CWZ </b>(Canisius Wilhelmina Ziekenhuis) Nijmegen </p>
+        <p> <b class="bold_word">JBZ</b> (Jeroen Bosch Ziekenhuis) 's-Hertogenbosch</p>
+        <p> <b class="bold_word">ETZ</b>(Elisabeth-TweeSteden Ziekenhuis)  Tilburg </p>
+        <p> <b class="bold_word">Beatrixziekenhuis </b>Gorinchem Rivas </p>
+
+    </div>
+</div>
+<div class="card">
+    <div class="card-block">
+        <h2>@Localizer["My Resume"]</h2>
+        <div class="row">
+            <a href="/Home/WorkExperience" class=" h5 col-9 col-sm-7 col-lg-5 d-block mx-auto resume ">@Localizer["working experience"] </a>
+            <a class=" h5 col-9 col-sm-7 col-lg-5 d-block mx-auto resume " href="/home/education">@Localizer["edication"] </a>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="card">
+    <div class="card-block">
+        <h2>@Localizer["Other activities"]</h2>
+        <div class="row">
+            <div class="">
+                <div class="ml-4">
+                    <p> @Localizer["barber shop description"] <br class="d-sm-none"> <a class="certificate" href="/Home/MaysHairStyle">@Localizer["barber shop link"]</a> </p>
+                    <p> @Localizer["work out description"] </p>
+                    <p>@Localizer["fire fighting description"]  <br>   <a class="certificate" href="/Home/FireFighter">@Localizer["fire fighting link"] </a> </p>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/img/fire1 (2).jpeg" class="img-responsive" alt="...">
+                    <div class="carousel-caption">
+                        <h3 class="h5">@Localizer["fire fighting"]</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/img/barber2.jpg" class="img-responsive" alt="...">
+                    <div class="carousel-caption">
+                        <h3 class="h5">@Localizer["my barber shop"]</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/img/fire8.jpg" class="img-responsive" alt="...">
+                    <div class="carousel-caption">
+                        <h3 class="h5">@Localizer["fire fighting"]</h3>
+                        <p>2021</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="card">
+    <div class="card-block">
+        <p>
+            <a class="comments-link" href="/home/Reviews">@Localizer["reviews link"]</a>
+            <br> <br> @Localizer["subimt review"]
+            <a class="submit-comment-link" href="/home/Reviews?elem=sendReview">@Localizer["here"] </a>
+            <br><br>
+                <a style="width: 26rem ;display: block" class=" whatsapp_link"  href="https://wa.me/+31647045888?text=" title="">
+                   WhatsApp : +31647045888     <i style="color: #330404; font-size: 28px; " class="fa fa-whatsapp  ml-2     "></i>
+                    </a>
+        </p>
+        
+               <a style="width: 26rem ;display: block" class=" email_link"  href="mailto:maysamzahiri@hotmail.com" title="">
+                  maysamzahiri@@hotmail.com     <i  style="color: #330404;font-size: 20px; " class="fa fa-envelope  ml-2     "></i>
+                    </a>
+        </p>
+        <br>
+        <h3>@Localizer["send message text"]</h3>
+        <form id="form" action="/" class="reveal-content">
+            <div class="form-group">
+                <input  type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" id="message" placeholder="@Localizer["write your message"]" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" id="btnSend" onclick="sendMessage()" class=" btn btn-primary">@Localizer["send message"]</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="peyman" style="width:300px;height:105px;box-shadow:0 0 0 8px #f5bca2;border:4px solid #361709;background-color:#f5bca2;border-radius:20px;margin: 20px auto 0 auto;font-size:16px; ">
+    <p style="color:#361709;text-align:center;margin-top:15px;font-weight: bold;">Web developer : Peyman Akhtari</p>
+    <p style="color:#361709;text-align:center;font-weight: bold;">peyman.firelance@gmail.com</p>
+</div>
+<br><br>    
+<style>
+    #social_links {
+        display: block !important;
+    }
+</style>
+
+
+<script>
+    function sendMessage() {
+        if ($('#form').valid()) {
+         $('#btnSend').prop('disabled',true)
+         $.ajax({
+            type:'post',
+            url:'/Home/SendMessage',
+            data:{message:$('#message').val(),email:$('#email').val()},
+            success:function(){
+         $('#btnSend').prop('disabled',false);
+         $('#form').trigger("reset");
+                $('#form').append(` <div class="alert alert-success alert-dismissible fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>@Localizer["message is sent"]</strong> <br> @Localizer["reply soon"]
+  </div>
+                `)
+
+            },
+            error:function(){
+                alert('oops!!! server error')
+            }
+         })
+        }
+    }
+
+    $('#form').validate({
+        errorPlacement: function (label, element) {
+            label.css('color', 'red');
+            label.insertAfter(element);
+        },
+        wrapper: 'span'
+    });
+    jQuery.extend(jQuery.validator.messages, {
+        required: "Dit veld is verplicht.",
+        email: "Gelieve een geldig e-mailadres in te geven."
+    });
+         $(document).ready(function () {
+        // Handler for .ready() called.
+        var elem = getParameterByName('elem');
+        $('html, body').animate({
+            scrollTop: $('#'+elem).offset().top
+        }, 'fast');
+    });
+
+</script>

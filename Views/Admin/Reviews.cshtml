@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Maysam.Models.Review>
+
+@{
+    ViewData["Title"] = "Reviews";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+
+    <div class="card w-75 mx-auto">
+        <div class="card-body">
+            <a href="#">@item.Email</a> <br><br>
+            @Html.Raw(item.Text) <br><br>
+            <a onclick="deleteReview(@item.Id)" class="btn btn-warning" href="/Admin/DeleteReview/@item.Id">delete</a>
+            @if (item.Status)
+            {
+                <a href="/Admin/ChangeStatus/@item.Id" class="btn btn-success">hide</a>
+            }
+            else
+            {
+                <a href="/Admin/ChangeStatus/@item.Id" class="btn btn-danger">show</a>
+            }
+        </div>
+    </div>
+    <br>
+}
+<script>
+    function deleteReview(id){
+        if(confirm('delete Review?')){
+            location.href='/Admin/deleteReview/'+id
+        }
+    }
+</script>
